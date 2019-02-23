@@ -30,37 +30,37 @@ while 1:
       x+=1
       if (x % WIDTH) == 0:
          x=0;y+=1
-      if b[i] > 0:
+      if 16 > b[i] > 0:
          canvas.create_rectangle( (x, y)*2 , outline='#003333')
-      if b[i] > 16:
+      elif 32 > b[i] > 16:
          canvas.create_rectangle( (x, y)*2 , outline='#004444')
-      if b[i] > 32:
+      elif 48 > b[i] > 32:
          canvas.create_rectangle( (x, y)*2 , outline='#005555')
-      if b[i] > 48:
+      elif 64 > b[i] > 48:
          canvas.create_rectangle( (x, y)*2 , outline='#006666')
-      if b[i] > 64:
+      elif 80 > b[i] > 64:
          canvas.create_rectangle( (x, y)*2 , outline='#007777')
-      if b[i] > 80:
+      elif 96 > b[i] > 80:
          canvas.create_rectangle( (x, y)*2 , outline='#008888')
-      if b[i] > 96:
-         canvas.create_rectangle( (x, y)*2 , outline='#00aaaa')
-      if b[i] > 112:
+      elif 112 > b[i] > 96:
+         canvas.create_rectangle( (x, y)*2 , outline='#00AAAA')
+      elif 128 > b[i] > 112:
          canvas.create_rectangle( (x, y)*2 , outline='#66ffff')
-      if b[i] > 128:
+      elif 144 > b[i] > 128:
          canvas.create_rectangle( (x, y)*2 , outline='#77ffff')
-      if b[i] > 144:
+      elif 160 > b[i] > 144:
          canvas.create_rectangle( (x, y)*2 , outline='#88ffff')
-      if b[i] > 160:
+      elif 176 > b[i] > 160:
          canvas.create_rectangle( (x, y)*2 , outline='#99ffff')
-      if b[i] > 176:
-         canvas.create_rectangle( (x, y)*2 , outline='#aaffff')
-      if b[i] > 192:
-         canvas.create_rectangle( (x, y)*2 , outline='#bbffff')
-      if b[i] > 208:
-         canvas.create_rectangle( (x, y)*2 , outline='#ccffff')
-      if b[i] > 224:
-         canvas.create_rectangle( (x, y)*2 , outline='#ddffff')
-      if b[i] > 240:
+      elif 192 > b[i] > 176:
+         canvas.create_rectangle( (x, y)*2 , outline='#AAffff')
+      elif 208 > b[i] > 192:
+         canvas.create_rectangle( (x, y)*2 , outline='#BBffff')
+      elif 224 > b[i] > 208:
+         canvas.create_rectangle( (x, y)*2 , outline='#CCffff')
+      elif 240 > b[i] > 224:
+         canvas.create_rectangle( (x, y)*2 , outline='#DDffff')
+      else:
          canvas.create_rectangle( (x, y)*2 , outline='#ffffff')
 
    canvas.scale("all", 0, 0, ZOOM, ZOOM)
