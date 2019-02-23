@@ -43,7 +43,7 @@ while 1:
       elif 96 > b[i] > 80:
          canvas.create_rectangle( (x, y)*2 , outline='#008888')
       elif 112 > b[i] > 96:
-         canvas.create_rectangle( (x, y)*2 , outline='#00AAAA')
+         canvas.create_rectangle( (x, y)*2 , outline='#00aaaa')
       elif 128 > b[i] > 112:
          canvas.create_rectangle( (x, y)*2 , outline='#66ffff')
       elif 144 > b[i] > 128:
@@ -53,13 +53,13 @@ while 1:
       elif 176 > b[i] > 160:
          canvas.create_rectangle( (x, y)*2 , outline='#99ffff')
       elif 192 > b[i] > 176:
-         canvas.create_rectangle( (x, y)*2 , outline='#AAffff')
+         canvas.create_rectangle( (x, y)*2 , outline='#aaffff')
       elif 208 > b[i] > 192:
-         canvas.create_rectangle( (x, y)*2 , outline='#BBffff')
+         canvas.create_rectangle( (x, y)*2 , outline='#bbffff')
       elif 224 > b[i] > 208:
-         canvas.create_rectangle( (x, y)*2 , outline='#CCffff')
+         canvas.create_rectangle( (x, y)*2 , outline='#ccffff')
       elif 240 > b[i] > 224:
-         canvas.create_rectangle( (x, y)*2 , outline='#DDffff')
+         canvas.create_rectangle( (x, y)*2 , outline='#ddffff')
       else:
          canvas.create_rectangle( (x, y)*2 , outline='#ffffff')
 
